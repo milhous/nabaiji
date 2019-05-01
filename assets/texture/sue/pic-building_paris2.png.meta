@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "5c55d091-d309-4825-81f4-7af3e5523f18",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "pic-building_paris2": {
+      "ver": "1.0.3",
+      "uuid": "340421b4-5321-4f5d-9d90-bc7e175edefc",
+      "rawTextureUuid": "5c55d091-d309-4825-81f4-7af3e5523f18",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 327,
+      "height": 315,
+      "rawWidth": 327,
+      "rawHeight": 315,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

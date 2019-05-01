@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "moon",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 9,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "54",
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 3,
+          "value": -20
+        },
+        {
+          "frame": 6,
+          "value": 10
+        },
+        {
+          "frame": 9,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

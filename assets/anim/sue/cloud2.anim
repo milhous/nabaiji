@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cloud2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.5,
+  "sample": 60,
+  "speed": 0.2,
+  "wrapMode": "54",
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 71,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 2,
+          "value": -160,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 4,
+          "value": 80
+        },
+        {
+          "frame": 5.5,
+          "value": -80
+        }
+      ]
+    }
+  },
+  "events": []
+}

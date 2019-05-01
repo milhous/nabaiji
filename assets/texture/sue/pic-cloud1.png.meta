@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f670b3f1-2584-4259-adc9-cbe4f00aadcc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "pic-cloud1": {
+      "ver": "1.0.3",
+      "uuid": "aeed5272-0553-478a-9365-ad47cb9d2674",
+      "rawTextureUuid": "f670b3f1-2584-4259-adc9-cbe4f00aadcc",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 153,
+      "height": 85,
+      "rawWidth": 153,
+      "rawHeight": 85,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
