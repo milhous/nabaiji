@@ -1,0 +1,221 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "story2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.516666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "say/sayAnim": {
+        "props": {
+          "scale": [
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      },
+      "reaction": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            },
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "table/desktop": {
+        "props": {
+          "x": [
+            {
+              "frame": 4.5,
+              "value": 0,
+              "curve": "linear"
+            },
+            {
+              "frame": 5,
+              "value": -750
+            }
+          ]
+        }
+      },
+      "layout": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "doll": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "say": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "word-title_day/wordAnim": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 1.5,
+              "value": 50,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 2.5,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.5,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "body/pencil": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "body/thread": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "night": {
+        "props": {
+          "x": [
+            {
+              "frame": 4.5,
+              "value": 750
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "night/blackboard/word-title_night": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5,
+              "value": 0
+            },
+            {
+              "frame": 5.516666666666667,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "body/needle": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
