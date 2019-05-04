@@ -1,0 +1,207 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "main",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 12,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "rookie/title1/animTitle1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -90
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 90
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 255
+            },
+            {
+              "frame": 4,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "rookie/title2/animTitle2": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 3,
+              "value": -9
+            },
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 7,
+              "value": 90
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 3,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 255
+            },
+            {
+              "frame": 7,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "rookie/title3/animTitle3": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 6,
+              "value": -90
+            },
+            {
+              "frame": 7,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 7,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "rookie/table/tap/activity": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "ffecebaf-8c6b-4061-a22f-e33c8045832b"
+                }
+              },
+              {
+                "frame": 3,
+                "value": {
+                  "__uuid__": "6139d021-0824-4824-b9e8-468fc74957c1"
+                }
+              },
+              {
+                "frame": 6,
+                "value": {
+                  "__uuid__": "31b288a7-cc46-4b49-8820-dd3f859012fe"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "rookie/desc/animDesc": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 50
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "rookie": {
+        "props": {
+          "position": [
+            {
+              "frame": 9,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 12,
+              "value": [
+                -4100,
+                3600
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 9,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 12,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 16,
+                "y": 16
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

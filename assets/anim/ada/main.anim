@@ -1,0 +1,333 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "main",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 19.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "housewife/title1/animTitle1": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -50
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 0
+            },
+            {
+              "frame": 3.5,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 3.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "housewife/title2/animTitle2": {
+        "props": {
+          "x": [
+            {
+              "frame": 2.5,
+              "value": -50
+            },
+            {
+              "frame": 3.5,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 2.5,
+              "value": 0
+            },
+            {
+              "frame": 3.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "housewife/title3/animTitle3": {
+        "props": {
+          "x": [
+            {
+              "frame": 5,
+              "value": -50
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 5,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "housewife/desc/animDesc": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 50
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 2820
+            },
+            {
+              "frame": 7.5,
+              "value": 1900
+            },
+            {
+              "frame": 9.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "housewife": {
+        "props": {
+          "y": [
+            {
+              "frame": 7.5,
+              "value": 0
+            },
+            {
+              "frame": 11.516666666666667,
+              "value": -1900
+            }
+          ]
+        }
+      },
+      "lady/swimsuit": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 9.5,
+              "value": 0
+            },
+            {
+              "frame": 10.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady/title1/animTitle1": {
+        "props": {
+          "x": [
+            {
+              "frame": 9.5,
+              "value": -50
+            },
+            {
+              "frame": 10.5,
+              "value": 0
+            },
+            {
+              "frame": 12.5,
+              "value": 0
+            },
+            {
+              "frame": 13.516666666666667,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 9.5,
+              "value": 0
+            },
+            {
+              "frame": 10.5,
+              "value": 255
+            },
+            {
+              "frame": 12.5,
+              "value": 255
+            },
+            {
+              "frame": 13.516666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title2/animTitle2": {
+        "props": {
+          "x": [
+            {
+              "frame": 12.5,
+              "value": -50
+            },
+            {
+              "frame": 13.5,
+              "value": 0
+            },
+            {
+              "frame": 15.5,
+              "value": 0
+            },
+            {
+              "frame": 16.5,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 12.5,
+              "value": 0
+            },
+            {
+              "frame": 13.5,
+              "value": 255
+            },
+            {
+              "frame": 15.5,
+              "value": 255
+            },
+            {
+              "frame": 16.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title3/animTitle3": {
+        "props": {
+          "x": [
+            {
+              "frame": 15.483333333333333,
+              "value": -50
+            },
+            {
+              "frame": 16.5,
+              "value": 0
+            },
+            {
+              "frame": 18.5,
+              "value": 0
+            },
+            {
+              "frame": 19.5,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 15.483333333333333,
+              "value": 0
+            },
+            {
+              "frame": 16.5,
+              "value": 255
+            },
+            {
+              "frame": 18.5,
+              "value": 255
+            },
+            {
+              "frame": 19.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title4/animTitle4": {
+        "props": {
+          "x": [
+            {
+              "frame": 18.5,
+              "value": -50
+            },
+            {
+              "frame": 19.5,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 18.5,
+              "value": 0
+            },
+            {
+              "frame": 19.5,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

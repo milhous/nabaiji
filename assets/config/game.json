@@ -1,0 +1,10 @@
+{
+    "VERSION": "1.0.0",
+    "SCENE":
+    {
+        "MAIN": "main"
+    },
+    "ACTION": {
+        "CHANGE_STAGE": "changeStage"
+    }
+}

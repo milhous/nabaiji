@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "swinsuit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8a08c7f3-54ae-49d6-b1f5-928de0f4d0d1"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "8a08c7f3-54ae-49d6-b1f5-928de0f4d0d1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

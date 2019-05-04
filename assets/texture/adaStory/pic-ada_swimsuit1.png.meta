@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "58b336e9-e994-4412-a35d-d6de180825c9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "pic-ada_swimsuit1": {
+      "ver": "1.0.3",
+      "uuid": "8a08c7f3-54ae-49d6-b1f5-928de0f4d0d1",
+      "rawTextureUuid": "58b336e9-e994-4412-a35d-d6de180825c9",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 398,
+      "height": 877,
+      "rawWidth": 398,
+      "rawHeight": 877,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
