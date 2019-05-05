@@ -22,6 +22,11 @@ cc.Class({
             type: cc.Animation,
             tooltip: '组件 - 动画'
         },
+        sueAnim: {
+            default: [],
+            type: [cc.Animation],
+            tooltip: '组件 - 动画'
+        }
     },
 
     onLoad() {
@@ -84,6 +89,8 @@ cc.Class({
         switch (index) {
             case 1:
                 this.forewordAnim.play();
+
+                this.sueAnim[0].play();
 
                 break;
             default:

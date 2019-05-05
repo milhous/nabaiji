@@ -19,7 +19,13 @@ cc.Class({
         // },
     },
 
-    // onLoad () {},
+    onLoad () {
+        const anim = this.node.getComponent(cc.Animation);
+
+        anim.once('finished', () => {
+            cc.log(111);
+        }, this);
+    },
 
     start() {
 
