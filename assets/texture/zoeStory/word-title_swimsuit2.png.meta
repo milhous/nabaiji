@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "a567cced-04d3-4e92-9bb8-8ffded8da025",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "word-title_swimsuit2": {
+      "ver": "1.0.3",
+      "uuid": "e66b848b-8be8-479d-8413-351caa74adf0",
+      "rawTextureUuid": "a567cced-04d3-4e92-9bb8-8ffded8da025",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 589,
+      "height": 107,
+      "rawWidth": 589,
+      "rawHeight": 107,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

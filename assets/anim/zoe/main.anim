@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 12,
+  "_duration": 25,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -200,7 +200,163 @@
             }
           ]
         }
+      },
+      "lady": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 12,
+              "value": 0
+            },
+            {
+              "frame": 12.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady/title1/animTitle1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 12.5,
+              "value": 0
+            },
+            {
+              "frame": 13.5,
+              "value": 255
+            },
+            {
+              "frame": 15.5,
+              "value": 255
+            },
+            {
+              "frame": 16.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title2/animTitle2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 15.5,
+              "value": 0
+            },
+            {
+              "frame": 16.5,
+              "value": 255
+            },
+            {
+              "frame": 18.5,
+              "value": 255
+            },
+            {
+              "frame": 19.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title3/animTitle3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 18.5,
+              "value": 0
+            },
+            {
+              "frame": 19.5,
+              "value": 255
+            },
+            {
+              "frame": 21.483333333333334,
+              "value": 255
+            },
+            {
+              "frame": 22.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/title4/animTitle4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 21.5,
+              "value": 0
+            },
+            {
+              "frame": 22.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady/swimsuit": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 12.5,
+                "value": {
+                  "__uuid__": "c11771c1-e8eb-4cff-bb23-b3572c66b4a1"
+                }
+              },
+              {
+                "frame": 15.5,
+                "value": {
+                  "__uuid__": "737ac03b-6509-485b-9570-27e518c3e604"
+                }
+              },
+              {
+                "frame": 18.5,
+                "value": {
+                  "__uuid__": "2134054e-d36a-4d06-aa74-a54ccd66b2db"
+                }
+              },
+              {
+                "frame": 21.5,
+                "value": {
+                  "__uuid__": "de83396e-3591-474d-b4a3-0f991a097697"
+                }
+              }
+            ]
+          }
+        }
       }
+    },
+    "props": {
+      "scale": [
+        {
+          "frame": 24.5,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 25,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 2,
+            "y": 2
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 24.5,
+          "value": 255
+        },
+        {
+          "frame": 25,
+          "value": 0
+        }
+      ]
     }
   },
   "events": []

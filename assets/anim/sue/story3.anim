@@ -3,7 +3,7 @@
   "_name": "story3",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 9,
+  "_duration": 9.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -178,6 +178,18 @@
           ]
         }
       }
+    },
+    "props": {
+      "scaleY": [
+        {
+          "frame": 9,
+          "value": 1
+        },
+        {
+          "frame": 9.5,
+          "value": 0
+        }
+      ]
     }
   },
   "events": []

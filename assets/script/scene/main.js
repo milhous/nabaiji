@@ -26,6 +26,16 @@ cc.Class({
             default: [],
             type: [cc.Animation],
             tooltip: '组件 - 动画'
+        },
+        zoeAnim: {
+            default: null,
+            type: cc.Animation,
+            tooltip: '组件 - 动画'
+        },
+        adaAnim: {
+            default: null,
+            type: cc.Animation,
+            tooltip: '组件 - 动画'
         }
     },
 
@@ -67,7 +77,7 @@ cc.Class({
 
     // 初始化事件
     initEvent() {
-        this.btnStart.on(cc.Node.EventType.TOUCH_END, () => {
+        this.forewordAnim.node.on(cc.Node.EventType.TOUCH_END, () => {
             this.changeStage(1);
         }, this);
     },
@@ -79,7 +89,9 @@ cc.Class({
             scene: SCENE.MAIN,
             action: ACTION.CHANGE_STAGE,
             callback: (props) => {
-                cc.log(props);
+                cc.log(props.index);
+
+                this.changeStage(props.index);
             }
         });
     },
@@ -91,6 +103,28 @@ cc.Class({
                 this.forewordAnim.play();
 
                 this.sueAnim[0].play();
+
+                break;
+            case 2:
+                this.sueAnim[1].play();
+                this.sueAnim[1].node.opacity = 255;
+
+                break;
+            case 3:
+                this.sueAnim[2].play();
+                this.sueAnim[2].node.opacity = 255;
+
+                break;
+            case 4:
+                this.sueAnim[2].node.parent.active = false;
+
+                this.zoeAnim.play();
+
+                break;
+            case 5:
+                this.zoeAnim.node.active = false;
+
+                this.adaAnim.play();
 
                 break;
             default:
