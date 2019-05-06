@@ -3,7 +3,7 @@
   "_name": "story1",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 7.5,
+  "_duration": 4.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -15,10 +15,10 @@
             {
               "frame": 0,
               "value": 50,
-              "curve": "cubicInOut"
+              "curve": "linear"
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 0
             }
           ],
@@ -28,7 +28,7 @@
               "value": 0
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 255
             }
           ]
@@ -38,12 +38,12 @@
         "props": {
           "rotation": [
             {
-              "frame": 3,
+              "frame": 1.5,
               "value": 0,
               "curve": "cubicInOut"
             },
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": -90
             }
           ]
@@ -53,12 +53,12 @@
         "props": {
           "rotation": [
             {
-              "frame": 3,
+              "frame": 1.5,
               "value": 90,
               "curve": "cubicInOut"
             },
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": 0
             }
           ]
@@ -68,23 +68,23 @@
         "props": {
           "x": [
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": 50,
-              "curve": "cubicInOut"
+              "curve": "linear"
             },
             {
-              "frame": 5,
+              "frame": 3.0166666666666666,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": 0,
               "curve": "linear"
             },
             {
-              "frame": 5,
+              "frame": 3.0166666666666666,
               "value": 255
             }
           ]
@@ -92,24 +92,24 @@
       }
     },
     "props": {
-      "scaleY": [
+      "x": [
         {
-          "frame": 7,
-          "value": 1
+          "frame": 4,
+          "value": 0
         },
         {
-          "frame": 7.5,
-          "value": 0
+          "frame": 4.5,
+          "value": -750
         }
       ]
     }
   },
   "events": [
     {
-      "frame": 7.5,
+      "frame": 4,
       "func": "changeStage",
       "params": [
-        "sue"
+        0
       ]
     }
   ]

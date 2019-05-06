@@ -11,39 +11,21 @@
     "paths": {
       "rookie/title1/animTitle1": {
         "props": {
-          "rotation": [
-            {
-              "frame": 0,
-              "value": -90
-            },
-            {
-              "frame": 1,
-              "value": 0
-            },
-            {
-              "frame": 3,
-              "value": 0
-            },
-            {
-              "frame": 4,
-              "value": 90
-            }
-          ],
           "opacity": [
             {
               "frame": 0,
               "value": 0
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 1.5,
               "value": 255
             },
             {
-              "frame": 4,
+              "frame": 2,
               "value": 0
             }
           ]
@@ -51,39 +33,21 @@
       },
       "rookie/title2/animTitle2": {
         "props": {
-          "rotation": [
-            {
-              "frame": 3,
-              "value": -9
-            },
-            {
-              "frame": 4,
-              "value": 0
-            },
-            {
-              "frame": 6,
-              "value": 0
-            },
-            {
-              "frame": 7,
-              "value": 90
-            }
-          ],
           "opacity": [
             {
-              "frame": 3,
+              "frame": 1.5,
               "value": 0
             },
             {
-              "frame": 4,
+              "frame": 2,
               "value": 255
             },
             {
-              "frame": 6,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 7,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -91,23 +55,13 @@
       },
       "rookie/title3/animTitle3": {
         "props": {
-          "rotation": [
-            {
-              "frame": 6,
-              "value": -90
-            },
-            {
-              "frame": 7,
-              "value": 0
-            }
-          ],
           "opacity": [
             {
-              "frame": 6,
+              "frame": 3,
               "value": 0
             },
             {
-              "frame": 7,
+              "frame": 3.5,
               "value": 255
             }
           ]
@@ -124,13 +78,13 @@
                 }
               },
               {
-                "frame": 3,
+                "frame": 1.5,
                 "value": {
                   "__uuid__": "6139d021-0824-4824-b9e8-468fc74957c1"
                 }
               },
               {
-                "frame": 6,
+                "frame": 3.0166666666666666,
                 "value": {
                   "__uuid__": "31b288a7-cc46-4b49-8820-dd3f859012fe"
                 }
@@ -147,7 +101,7 @@
               "value": 50
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 0
             }
           ],
@@ -157,7 +111,7 @@
               "value": 0
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 255
             }
           ]
@@ -167,23 +121,23 @@
         "props": {
           "position": [
             {
-              "frame": 9,
+              "frame": 4.5,
               "value": [
                 0,
                 0
               ]
             },
             {
-              "frame": 12,
+              "frame": 5.5,
               "value": [
-                -4100,
-                3600
+                -1500,
+                1600
               ]
             }
           ],
           "scale": [
             {
-              "frame": 9,
+              "frame": 4.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -191,11 +145,11 @@
               }
             },
             {
-              "frame": 12,
+              "frame": 5.5,
               "value": {
                 "__type__": "cc.Vec2",
-                "x": 16,
-                "y": 16
+                "x": 6,
+                "y": 6
               }
             }
           ]
@@ -205,34 +159,12 @@
         "props": {
           "opacity": [
             {
-              "frame": 12,
+              "frame": 5.5,
               "value": 0
             },
             {
-              "frame": 12.5,
+              "frame": 6,
               "value": 255
-            }
-          ]
-        }
-      },
-      "lady/title1/animTitle1": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 12.5,
-              "value": 0
-            },
-            {
-              "frame": 13.5,
-              "value": 255
-            },
-            {
-              "frame": 15.5,
-              "value": 255
-            },
-            {
-              "frame": 16.5,
-              "value": 0
             }
           ]
         }
@@ -241,19 +173,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 15.5,
+              "frame": 7.5,
               "value": 0
             },
             {
-              "frame": 16.5,
+              "frame": 8,
               "value": 255
             },
             {
-              "frame": 18.5,
+              "frame": 9,
               "value": 255
             },
             {
-              "frame": 19.5,
+              "frame": 9.5,
               "value": 0
             }
           ]
@@ -263,19 +195,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 18.5,
+              "frame": 9,
               "value": 0
             },
             {
-              "frame": 19.5,
+              "frame": 9.5,
               "value": 255
             },
             {
-              "frame": 21.483333333333334,
+              "frame": 10.5,
               "value": 255
             },
             {
-              "frame": 22.5,
+              "frame": 11,
               "value": 0
             }
           ]
@@ -285,11 +217,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 21.5,
+              "frame": 10.5,
               "value": 0
             },
             {
-              "frame": 22.5,
+              "frame": 11,
               "value": 255
             }
           ]
@@ -300,31 +232,53 @@
           "cc.Sprite": {
             "spriteFrame": [
               {
-                "frame": 12.5,
+                "frame": 6,
                 "value": {
                   "__uuid__": "c11771c1-e8eb-4cff-bb23-b3572c66b4a1"
                 }
               },
               {
-                "frame": 15.5,
+                "frame": 7.5,
                 "value": {
                   "__uuid__": "737ac03b-6509-485b-9570-27e518c3e604"
                 }
               },
               {
-                "frame": 18.5,
+                "frame": 9,
                 "value": {
                   "__uuid__": "2134054e-d36a-4d06-aa74-a54ccd66b2db"
                 }
               },
               {
-                "frame": 21.5,
+                "frame": 10.5,
                 "value": {
                   "__uuid__": "de83396e-3591-474d-b4a3-0f991a097697"
                 }
               }
             ]
           }
+        }
+      },
+      "lady/title1/animTitle1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 6.5,
+              "value": 255
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            },
+            {
+              "frame": 8,
+              "value": 0
+            }
+          ]
         }
       }
     },

@@ -107,12 +107,10 @@ cc.Class({
                 break;
             case 2:
                 this.sueAnim[1].play();
-                this.sueAnim[1].node.opacity = 255;
 
                 break;
             case 3:
                 this.sueAnim[2].play();
-                this.sueAnim[2].node.opacity = 255;
 
                 break;
             case 4:

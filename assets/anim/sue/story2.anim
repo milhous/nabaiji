@@ -3,7 +3,7 @@
   "_name": "story2",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 9,
+  "_duration": 4.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -13,7 +13,7 @@
         "props": {
           "scale": [
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -21,7 +21,7 @@
               }
             },
             {
-              "frame": 1.3333333333333333,
+              "frame": 1,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -35,19 +35,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 1.3333333333333333,
+              "frame": 0.8333333333333334,
               "value": 0
             },
             {
-              "frame": 1.5,
+              "frame": 1,
               "value": 255
             },
             {
-              "frame": 4.5,
+              "frame": 2,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 2.5,
               "value": 0
             }
           ]
@@ -57,12 +57,12 @@
         "props": {
           "x": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 0,
               "curve": "linear"
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": -750
             }
           ]
@@ -72,11 +72,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 0
             }
           ]
@@ -86,11 +86,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 0
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 255
             }
           ]
@@ -100,11 +100,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.0166666666666666,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 2.5166666666666666,
               "value": 0
             }
           ]
@@ -115,30 +115,30 @@
         "props": {
           "x": [
             {
-              "frame": 1.5,
+              "frame": 0.5,
               "value": 50,
               "curve": "cubicInOut"
             },
             {
-              "frame": 2.5,
+              "frame": 1,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 1.5,
+              "frame": 0.5,
               "value": 0
             },
             {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            },
+            {
               "frame": 2.5,
-              "value": 255
-            },
-            {
-              "frame": 4.5,
-              "value": 255
-            },
-            {
-              "frame": 5,
               "value": 0
             }
           ]
@@ -149,11 +149,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 0
             }
           ]
@@ -163,11 +163,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 0
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 255
             }
           ]
@@ -177,26 +177,12 @@
         "props": {
           "x": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 750
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 0
-            }
-          ]
-        }
-      },
-      "night/blackboard/word-title_night": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 5,
-              "value": 0
-            },
-            {
-              "frame": 5.516666666666667,
-              "value": 255
             }
           ]
         }
@@ -205,11 +191,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 2.5,
               "value": 0
             },
             {
-              "frame": 5,
+              "frame": 3,
               "value": 255
             }
           ]
@@ -217,17 +203,33 @@
       }
     },
     "props": {
-      "scaleY": [
+      "x": [
         {
-          "frame": 8.5,
-          "value": 1
+          "frame": 0,
+          "value": 750
         },
         {
-          "frame": 9,
+          "frame": 0.5,
           "value": 0
+        },
+        {
+          "frame": 4,
+          "value": 0
+        },
+        {
+          "frame": 4.5,
+          "value": -750
         }
       ]
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 4,
+      "func": "changeStage",
+      "params": [
+        0
+      ]
+    }
+  ]
 }

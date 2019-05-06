@@ -3,7 +3,7 @@
   "_name": "tap",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 1,
+  "_duration": 0.5166666666666667,
   "sample": 60,
   "speed": 1,
   "wrapMode": "2",
@@ -18,13 +18,13 @@
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.25,
             "value": {
               "__uuid__": "a28368c9-403e-441d-b2fb-6a5aa71b0041"
             }
           },
           {
-            "frame": 0.9833333333333333,
+            "frame": 0.5,
             "value": {
               "__uuid__": "409541bf-243c-4394-92dc-8fa908eabcbf"
             }

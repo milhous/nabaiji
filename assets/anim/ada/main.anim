@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 19.5,
+  "_duration": 12.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -17,15 +17,15 @@
               "value": -50
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 0
             },
             {
-              "frame": 2.5,
+              "frame": 1.5,
               "value": 0
             },
             {
-              "frame": 3.5,
+              "frame": 2,
               "value": 50
             }
           ],
@@ -35,15 +35,15 @@
               "value": 0
             },
             {
-              "frame": 1,
+              "frame": 0.5,
               "value": 255
             },
             {
-              "frame": 2.5,
+              "frame": 1.5,
               "value": 255
             },
             {
-              "frame": 3.5,
+              "frame": 2,
               "value": 0
             }
           ]
@@ -53,37 +53,37 @@
         "props": {
           "x": [
             {
-              "frame": 2.5,
+              "frame": 1.5,
               "value": -50
             },
             {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0
+            },
+            {
               "frame": 3.5,
-              "value": 0
-            },
-            {
-              "frame": 5,
-              "value": 0
-            },
-            {
-              "frame": 6,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 1.5,
               "value": 0
             },
             {
+              "frame": 2,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 255
+            },
+            {
               "frame": 3.5,
-              "value": 255
-            },
-            {
-              "frame": 5,
-              "value": 255
-            },
-            {
-              "frame": 6,
               "value": 0
             }
           ]
@@ -93,21 +93,21 @@
         "props": {
           "x": [
             {
-              "frame": 5,
+              "frame": 4.5,
               "value": -50
             },
             {
-              "frame": 6,
+              "frame": 5,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 5,
+              "frame": 4.5,
               "value": 0
             },
             {
-              "frame": 6,
+              "frame": 5,
               "value": 255
             }
           ]
@@ -121,7 +121,7 @@
               "value": 50
             },
             {
-              "frame": 1,
+              "frame": 0.5166666666666667,
               "value": 0
             }
           ],
@@ -131,7 +131,7 @@
               "value": 0
             },
             {
-              "frame": 1,
+              "frame": 0.5166666666666667,
               "value": 255
             }
           ]
@@ -145,11 +145,11 @@
               "value": 2820
             },
             {
-              "frame": 7.5,
+              "frame": 6,
               "value": 1900
             },
             {
-              "frame": 9.5,
+              "frame": 7,
               "value": 0
             }
           ]
@@ -159,11 +159,11 @@
         "props": {
           "y": [
             {
-              "frame": 7.5,
+              "frame": 6,
               "value": 0
             },
             {
-              "frame": 11.516666666666667,
+              "frame": 9,
               "value": -1900
             }
           ]
@@ -173,11 +173,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 9.5,
+              "frame": 7,
               "value": 0
             },
             {
-              "frame": 10.5,
+              "frame": 7.5,
               "value": 255
             }
           ]
@@ -187,37 +187,37 @@
         "props": {
           "x": [
             {
-              "frame": 9.5,
+              "frame": 7.5,
               "value": -50
             },
             {
-              "frame": 10.5,
+              "frame": 8,
               "value": 0
             },
             {
-              "frame": 12.5,
+              "frame": 9,
               "value": 0
             },
             {
-              "frame": 13.516666666666667,
+              "frame": 9.5,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 9.5,
+              "frame": 7.5,
               "value": 0
             },
             {
-              "frame": 10.5,
+              "frame": 8,
               "value": 255
             },
             {
-              "frame": 12.5,
+              "frame": 9,
               "value": 255
             },
             {
-              "frame": 13.516666666666667,
+              "frame": 9.5,
               "value": 0
             }
           ]
@@ -227,37 +227,37 @@
         "props": {
           "x": [
             {
-              "frame": 12.5,
+              "frame": 9,
               "value": -50
             },
             {
-              "frame": 13.5,
+              "frame": 9.5,
               "value": 0
             },
             {
-              "frame": 15.5,
+              "frame": 10.5,
               "value": 0
             },
             {
-              "frame": 16.5,
+              "frame": 11,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 12.5,
+              "frame": 9,
               "value": 0
             },
             {
-              "frame": 13.5,
+              "frame": 9.5,
               "value": 255
             },
             {
-              "frame": 15.5,
+              "frame": 10.5,
               "value": 255
             },
             {
-              "frame": 16.5,
+              "frame": 11,
               "value": 0
             }
           ]
@@ -267,62 +267,38 @@
         "props": {
           "x": [
             {
-              "frame": 15.483333333333333,
+              "frame": 10.5,
               "value": -50
             },
             {
-              "frame": 16.5,
+              "frame": 11,
               "value": 0
             },
             {
-              "frame": 18.5,
+              "frame": 12,
               "value": 0
             },
             {
-              "frame": 19.5,
+              "frame": 12.5,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 15.483333333333333,
+              "frame": 10.5,
               "value": 0
             },
             {
-              "frame": 16.5,
+              "frame": 11,
               "value": 255
             },
             {
-              "frame": 18.5,
+              "frame": 12,
               "value": 255
             },
             {
-              "frame": 19.5,
+              "frame": 12.5,
               "value": 0
-            }
-          ]
-        }
-      },
-      "lady/title4/animTitle4": {
-        "props": {
-          "x": [
-            {
-              "frame": 18.5,
-              "value": -50
-            },
-            {
-              "frame": 19.5,
-              "value": 0
-            }
-          ],
-          "opacity": [
-            {
-              "frame": 18.5,
-              "value": 0
-            },
-            {
-              "frame": 19.5,
-              "value": 255
             }
           ]
         }

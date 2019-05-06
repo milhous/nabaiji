@@ -3,7 +3,7 @@
   "_name": "story3",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 9.5,
+  "_duration": 5.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -13,7 +13,7 @@
         "props": {
           "scale": [
             {
-              "frame": 0,
+              "frame": 0.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -21,7 +21,7 @@
               }
             },
             {
-              "frame": 9,
+              "frame": 5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1.4,
@@ -36,7 +36,7 @@
         "props": {
           "opacity": [
             {
-              "frame": 0,
+              "frame": 0.5,
               "value": 0
             },
             {
@@ -44,17 +44,17 @@
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 2,
               "value": 255
             },
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": 0
             }
           ],
           "scale": [
             {
-              "frame": 0,
+              "frame": 0.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -70,7 +70,7 @@
               }
             },
             {
-              "frame": 3,
+              "frame": 2,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -78,7 +78,7 @@
               }
             },
             {
-              "frame": 4,
+              "frame": 2.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 2,
@@ -93,25 +93,25 @@
         "props": {
           "opacity": [
             {
-              "frame": 3,
+              "frame": 2,
               "value": 0
             },
             {
+              "frame": 2.5166666666666666,
+              "value": 255
+            },
+            {
+              "frame": 3.5,
+              "value": 255
+            },
+            {
               "frame": 4,
-              "value": 255
-            },
-            {
-              "frame": 6,
-              "value": 255
-            },
-            {
-              "frame": 7,
               "value": 0
             }
           ],
           "scale": [
             {
-              "frame": 3,
+              "frame": 2,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -119,23 +119,23 @@
               }
             },
             {
+              "frame": 2.5166666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 3.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
               "frame": 4,
-              "value": {
-                "__type__": "cc.Vec2",
-                "x": 1,
-                "y": 1
-              }
-            },
-            {
-              "frame": 6,
-              "value": {
-                "__type__": "cc.Vec2",
-                "x": 1,
-                "y": 1
-              }
-            },
-            {
-              "frame": 7,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 2,
@@ -150,17 +150,17 @@
         "props": {
           "opacity": [
             {
-              "frame": 6,
+              "frame": 3.5,
               "value": 0
             },
             {
-              "frame": 7,
+              "frame": 4,
               "value": 255
             }
           ],
           "scale": [
             {
-              "frame": 6,
+              "frame": 3.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -168,7 +168,7 @@
               }
             },
             {
-              "frame": 7,
+              "frame": 4,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -180,13 +180,41 @@
       }
     },
     "props": {
-      "scaleY": [
+      "x": [
         {
-          "frame": 9,
-          "value": 1
+          "frame": 0,
+          "value": 750
         },
         {
-          "frame": 9.5,
+          "frame": 0.5,
+          "value": 0
+        }
+      ],
+      "scale": [
+        {
+          "frame": 5,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 5.5,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 2,
+            "y": 2
+          }
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 5,
+          "value": 255
+        },
+        {
+          "frame": 5.5,
           "value": 0
         }
       ]
