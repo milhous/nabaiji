@@ -17,6 +17,11 @@ cc.Class({
             type: cc.Node,
             tooltip: '按钮 - 开始'
         },
+        btnPass: {
+            default: null,
+            type: cc.Node,
+            tooltip: '按钮 - 跳过'
+        },
         forewordAnim: {
             default: null,
             type: cc.Animation,
@@ -79,6 +84,12 @@ cc.Class({
     initEvent() {
         this.forewordAnim.node.on(cc.Node.EventType.TOUCH_END, () => {
             this.changeStage(1);
+        }, this);
+
+        this.btnPass.on(cc.Node.EventType.TOUCH_START, (evt) => {
+            evt.stopPropagation();
+            
+            this.goToUrl();
         }, this);
     },
 

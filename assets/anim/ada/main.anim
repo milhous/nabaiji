@@ -297,6 +297,136 @@
             }
           ]
         }
+      },
+      " dropDown/container": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 1400
+            },
+            {
+              "frame": 6,
+              "value": 300
+            },
+            {
+              "frame": 7,
+              "value": -1400
+            }
+          ]
+        }
+      },
+      " dropDown/container/item1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4,
+              "value": 255
+            },
+            {
+              "frame": 4.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item6": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item7": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item8": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 6,
+              "value": 255
+            },
+            {
+              "frame": 6.5,
+              "value": 0
+            }
+          ]
+        }
       }
     }
   },
