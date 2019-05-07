@@ -3,13 +3,183 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 12.5,
+  "_duration": 16,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "rookie/title1/animTitle1": {
+      "rookie": {
+        "props": {
+          "scale": [
+            {
+              "frame": 6,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 8,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 4,
+                "y": 4
+              }
+            }
+          ],
+          "position": [
+            {
+              "frame": 6,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 8,
+              "value": [
+                -1000,
+                1000
+              ]
+            }
+          ]
+        }
+      },
+      "lady": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 7,
+              "value": 0
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady/container/title2/animTitle2": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 9.5,
+              "value": 0
+            },
+            {
+              "frame": 10,
+              "value": 255
+            },
+            {
+              "frame": 11.5,
+              "value": 255
+            },
+            {
+              "frame": 12,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/container/title3/animTitle3": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 11.5,
+              "value": 0
+            },
+            {
+              "frame": 12,
+              "value": 255
+            },
+            {
+              "frame": 13.5,
+              "value": 255
+            },
+            {
+              "frame": 14,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/container/title4/animTitle4": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 13.5,
+              "value": 0
+            },
+            {
+              "frame": 14,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "lady/container/swimsuit": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 7.5,
+                "value": {
+                  "__uuid__": "c11771c1-e8eb-4cff-bb23-b3572c66b4a1"
+                }
+              },
+              {
+                "frame": 9.5,
+                "value": {
+                  "__uuid__": "737ac03b-6509-485b-9570-27e518c3e604"
+                }
+              },
+              {
+                "frame": 11.5,
+                "value": {
+                  "__uuid__": "2134054e-d36a-4d06-aa74-a54ccd66b2db"
+                }
+              },
+              {
+                "frame": 13.5,
+                "value": {
+                  "__uuid__": "de83396e-3591-474d-b4a3-0f991a097697"
+                }
+              }
+            ]
+          }
+        },
+        "props": {}
+      },
+      "lady/container/title1/animTitle1": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 7.5,
+              "value": 0
+            },
+            {
+              "frame": 8,
+              "value": 255
+            },
+            {
+              "frame": 9.5,
+              "value": 255
+            },
+            {
+              "frame": 10,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "rookie/container/title1/animTitle1": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -21,53 +191,55 @@
               "value": 255
             },
             {
-              "frame": 1.5,
-              "value": 255
-            },
-            {
-              "frame": 2,
-              "value": 0
-            }
-          ]
-        }
-      },
-      "rookie/title2/animTitle2": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 1.5,
-              "value": 0
-            },
-            {
               "frame": 2,
               "value": 255
             },
             {
-              "frame": 3,
-              "value": 255
-            },
-            {
-              "frame": 3.5,
+              "frame": 2.5,
               "value": 0
             }
           ]
         }
       },
-      "rookie/title3/animTitle3": {
+      "rookie/container/title2/animTitle2": {
+        "comps": {},
         "props": {
           "opacity": [
             {
-              "frame": 3,
+              "frame": 2,
               "value": 0
             },
             {
-              "frame": 3.5,
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 4,
+              "value": 255
+            },
+            {
+              "frame": 4.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "rookie/container/title3/animTitle3": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "frame": 4.5,
               "value": 255
             }
           ]
         }
       },
-      "rookie/table/tap/activity": {
+      "rookie/container/table/tap/activity": {
         "comps": {
           "cc.Sprite": {
             "spriteFrame": [
@@ -78,22 +250,24 @@
                 }
               },
               {
-                "frame": 1.5,
+                "frame": 2,
                 "value": {
                   "__uuid__": "6139d021-0824-4824-b9e8-468fc74957c1"
                 }
               },
               {
-                "frame": 3.0166666666666666,
+                "frame": 4,
                 "value": {
                   "__uuid__": "31b288a7-cc46-4b49-8820-dd3f859012fe"
                 }
               }
             ]
           }
-        }
+        },
+        "props": {}
       },
-      "rookie/desc/animDesc": {
+      "rookie/container/desc/animDesc": {
+        "comps": {},
         "props": {
           "x": [
             {
@@ -116,180 +290,16 @@
             }
           ]
         }
-      },
-      "rookie": {
-        "props": {
-          "position": [
-            {
-              "frame": 4.5,
-              "value": [
-                0,
-                0
-              ]
-            },
-            {
-              "frame": 5.5,
-              "value": [
-                -1500,
-                1600
-              ]
-            }
-          ],
-          "scale": [
-            {
-              "frame": 4.5,
-              "value": {
-                "__type__": "cc.Vec2",
-                "x": 1,
-                "y": 1
-              }
-            },
-            {
-              "frame": 5.5,
-              "value": {
-                "__type__": "cc.Vec2",
-                "x": 6,
-                "y": 6
-              }
-            }
-          ]
-        }
-      },
-      "lady": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 5.5,
-              "value": 0
-            },
-            {
-              "frame": 6,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "lady/title2/animTitle2": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 7.5,
-              "value": 0
-            },
-            {
-              "frame": 8,
-              "value": 255
-            },
-            {
-              "frame": 9,
-              "value": 255
-            },
-            {
-              "frame": 9.5,
-              "value": 0
-            }
-          ]
-        }
-      },
-      "lady/title3/animTitle3": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 9,
-              "value": 0
-            },
-            {
-              "frame": 9.5,
-              "value": 255
-            },
-            {
-              "frame": 10.5,
-              "value": 255
-            },
-            {
-              "frame": 11,
-              "value": 0
-            }
-          ]
-        }
-      },
-      "lady/title4/animTitle4": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 10.5,
-              "value": 0
-            },
-            {
-              "frame": 11,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "lady/swimsuit": {
-        "comps": {
-          "cc.Sprite": {
-            "spriteFrame": [
-              {
-                "frame": 6,
-                "value": {
-                  "__uuid__": "c11771c1-e8eb-4cff-bb23-b3572c66b4a1"
-                }
-              },
-              {
-                "frame": 7.5,
-                "value": {
-                  "__uuid__": "737ac03b-6509-485b-9570-27e518c3e604"
-                }
-              },
-              {
-                "frame": 9,
-                "value": {
-                  "__uuid__": "2134054e-d36a-4d06-aa74-a54ccd66b2db"
-                }
-              },
-              {
-                "frame": 10.5,
-                "value": {
-                  "__uuid__": "de83396e-3591-474d-b4a3-0f991a097697"
-                }
-              }
-            ]
-          }
-        }
-      },
-      "lady/title1/animTitle1": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 6,
-              "value": 0
-            },
-            {
-              "frame": 6.5,
-              "value": 255
-            },
-            {
-              "frame": 7.5,
-              "value": 255
-            },
-            {
-              "frame": 8,
-              "value": 0
-            }
-          ]
-        }
       }
     },
     "props": {
       "opacity": [
         {
-          "frame": 12,
+          "frame": 15.5,
           "value": 255
         },
         {
-          "frame": 12.5,
+          "frame": 16,
           "value": 0
         }
       ]
@@ -297,7 +307,7 @@
   },
   "events": [
     {
-      "frame": 12,
+      "frame": 15.5,
       "func": "changeStage",
       "params": [
         0
