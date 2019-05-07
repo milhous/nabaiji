@@ -9,7 +9,8 @@
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "say/sayAnim": {
+      "container/say/sayAnim": {
+        "comps": {},
         "props": {
           "scale": [
             {
@@ -31,7 +32,8 @@
           ]
         }
       },
-      "reaction": {
+      "container/reaction": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -53,7 +55,8 @@
           ]
         }
       },
-      "table/desktop": {
+      "container/table/desktop": {
+        "comps": {},
         "props": {
           "x": [
             {
@@ -68,7 +71,8 @@
           ]
         }
       },
-      "layout": {
+      "container/layout": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -82,7 +86,8 @@
           ]
         }
       },
-      "doll": {
+      "container/doll": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -96,7 +101,8 @@
           ]
         }
       },
-      "say": {
+      "container/say": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -110,7 +116,7 @@
           ]
         }
       },
-      "word-title_day/wordAnim": {
+      "container/word-title_day/wordAnim": {
         "comps": {},
         "props": {
           "x": [
@@ -144,7 +150,7 @@
           ]
         }
       },
-      "body/pencil": {
+      "container/body/pencil": {
         "comps": {},
         "props": {
           "opacity": [
@@ -159,7 +165,8 @@
           ]
         }
       },
-      "body/thread": {
+      "container/body/thread": {
+        "comps": {},
         "props": {
           "opacity": [
             {
@@ -173,7 +180,8 @@
           ]
         }
       },
-      "night": {
+      "container/night": {
+        "comps": {},
         "props": {
           "x": [
             {
@@ -187,7 +195,8 @@
           ]
         }
       },
-      "body/needle": {
+      "container/body/needle": {
+        "comps": {},
         "props": {
           "opacity": [
             {
