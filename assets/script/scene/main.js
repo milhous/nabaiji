@@ -129,5 +129,10 @@ cc.Class({
                 // statements_def
                 break;
         }
+    },
+
+    // 跳过
+    goToUrl() {
+        location.href = 'http://nabaiji.yuncoupons.com/photo.php';
     }
 });

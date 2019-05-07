@@ -9,32 +9,8 @@
   "wrapMode": 1,
   "curveData": {
     "paths": {
-      "shanghai/title/titleAnim": {
-        "props": {
-          "x": [
-            {
-              "frame": 0,
-              "value": 50,
-              "curve": "linear"
-            },
-            {
-              "frame": 0.5,
-              "value": 0
-            }
-          ],
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 0
-            },
-            {
-              "frame": 0.5,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "shanghai": {
+      "container/shanghai": {
+        "comps": {},
         "props": {
           "rotation": [
             {
@@ -49,7 +25,8 @@
           ]
         }
       },
-      "paris": {
+      "container/paris": {
+        "comps": {},
         "props": {
           "rotation": [
             {
@@ -64,7 +41,8 @@
           ]
         }
       },
-      "paris/title/titleAnim": {
+      "container/paris/title/titleAnim": {
+        "comps": {},
         "props": {
           "x": [
             {
@@ -85,6 +63,32 @@
             },
             {
               "frame": 3.0166666666666666,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "container/shanghai/title/titleAnim": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 50,
+              "curve": "linear"
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
               "value": 255
             }
           ]

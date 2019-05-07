@@ -1,3 +1,74 @@
+<?php
+	header('Content-type: text/html; charset=UTF-8');
+	
+	include_once 'interface/common.php';
+
+	session_start();
+
+	if(!empty($_GET) && isset($_GET['openid'])){
+		$wxinfo = $_GET;
+		$_SESSION['nabaiji_wx'] = $wxinfo;
+
+		saveInfo($wxinfo);
+	}else if($_SESSION['nabaiji_wx']){
+		$wxinfo = $_SESSION['nabaiji_wx'];
+
+		saveInfo($wxinfo);
+	}else{
+		header("Location:"."http://kipsta.yuncii.com/worldcup/wechat_author.php?scope=snsapi_base&redirect_uri=http://nabaiji.yuncoupons.com/index.php");
+		exit();
+	}
+
+	$str = "jsapi_ticket=kgt8ON7yVITDhtdwci0qeY9owq9VMNTb8r3pze3zvtGKUnUW3HiTXMSjpQ3q9Bzm5WqkzzSa9a_9b5uHQLkD1w&noncestr=kc8gilNUArkV0FhF1cwh1DvltnPhnIo8&timestamp=1557028353&url=http://nabaiji.yuncoupons.com/index.php";
+	echo sha1($str);
+
+	function saveInfo($info){
+		$pdo = getPDO();
+
+		$sql = "SELECT id FROM user_info WHERE openid = :openid";
+		$stmt = $pdo->prepare($sql);
+		$stmt->bindParam(":openid", $info['openid']);
+		$stmt->execute();
+		$row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+		if(empty($row)){
+			$sql = "INSERT INTO user_info 
+						(`openid`, `nickname`, `sex`, `city`, `province`, `country`, `language`, `headimgurl`, `insert_time`, `last_time`) 
+					VALUES 
+						(:openid, :nickname, :sex, :city, :province, :country, :language, :headimgurl, :now, :now)";
+			$stmt = $pdo->prepare($sql);
+			$stmt->bindParam(":openid", $info['openid']);
+			$stmt->bindParam(":nickname", $info['nickname']);
+			$stmt->bindParam(":sex", $info['sex']);
+			$stmt->bindParam(":city", $info['city']);
+			$stmt->bindParam(":province", $info['province']);
+			$stmt->bindParam(":country", $info['country']);
+			$stmt->bindParam(":language", $info['language']);
+			$stmt->bindParam(":headimgurl", $info['headimgurl']);
+			$stmt->bindParam(":now", $now);
+			$now = date('Y-m-d H:i:s');
+			$stmt->execute();
+		}else{
+			$sql = "UPDATE user_info SET nickname = :nickname, sex = :sex, city = :city, province = :province, country = :country, language = :language, 
+						headimgurl = :headimgurl, last_time = :now WHERE openid = :openid";
+			$stmt = $pdo->prepare($sql);
+			$stmt->bindParam(":openid", $info['openid']);
+			$stmt->bindParam(":nickname", $info['nickname']);
+			$stmt->bindParam(":sex", $info['sex']);
+			$stmt->bindParam(":city", $info['city']);
+			$stmt->bindParam(":province", $info['province']);
+			$stmt->bindParam(":country", $info['country']);
+			$stmt->bindParam(":language", $info['language']);
+			$stmt->bindParam(":headimgurl", $info['headimgurl']);
+			$stmt->bindParam(":now", $now);
+			$now = date('Y-m-d H:i:s');
+			$stmt->execute();
+		}
+
+		$stmt = null;
+		$pdo = null;
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +119,7 @@
       <span style="width: 0%"></span>
     </div>
   </div>
-  <audio id="audio" src="http://cdn.nabaiji.yuncoupons.com/audio/music.mp3" preload="auto" loop="loop"></audio>
+  <audio id="audio" src="audio/music.mp3" preload="auto" loop="loop"></audio>
 <script src="src/settings.js" charset="utf-8"></script>
 
 <script src="main.js" charset="utf-8"></script>
