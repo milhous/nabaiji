@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 25,
+  "_duration": 12.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -283,35 +283,25 @@
       }
     },
     "props": {
-      "scale": [
-        {
-          "frame": 24.5,
-          "value": {
-            "__type__": "cc.Vec2",
-            "x": 1,
-            "y": 1
-          }
-        },
-        {
-          "frame": 25,
-          "value": {
-            "__type__": "cc.Vec2",
-            "x": 2,
-            "y": 2
-          }
-        }
-      ],
       "opacity": [
         {
-          "frame": 24.5,
+          "frame": 12,
           "value": 255
         },
         {
-          "frame": 25,
+          "frame": 12.5,
           "value": 0
         }
       ]
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 12,
+      "func": "changeStage",
+      "params": [
+        0
+      ]
+    }
+  ]
 }

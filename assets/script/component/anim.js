@@ -16,6 +16,8 @@ cc.Class({
         const anim = this.node.getComponent(cc.Animation);
 
         anim.once('finished', () => {
+            cc.log('onLoad', this.index, this._isChange);
+
             if (this._isChange) {
                 return;
             }

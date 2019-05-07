@@ -190,24 +190,7 @@
           "value": 0
         }
       ],
-      "scale": [
-        {
-          "frame": 5,
-          "value": {
-            "__type__": "cc.Vec2",
-            "x": 1,
-            "y": 1
-          }
-        },
-        {
-          "frame": 5.5,
-          "value": {
-            "__type__": "cc.Vec2",
-            "x": 2,
-            "y": 2
-          }
-        }
-      ],
+      "scale": [],
       "opacity": [
         {
           "frame": 5,
