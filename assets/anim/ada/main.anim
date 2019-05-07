@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 9,
+  "_duration": 11.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -21,11 +21,11 @@
               "value": 0
             },
             {
-              "frame": 1.5,
+              "frame": 2,
               "value": 0
             },
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 50
             }
           ],
@@ -39,11 +39,11 @@
               "value": 255
             },
             {
-              "frame": 1.5,
+              "frame": 2,
               "value": 255
             },
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 0
             }
           ]
@@ -53,37 +53,37 @@
         "props": {
           "x": [
             {
-              "frame": 1.5,
+              "frame": 2,
               "value": -50
             },
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 0
             },
             {
-              "frame": 3.5,
+              "frame": 4.5,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 1.5,
+              "frame": 2,
               "value": 0
             },
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 255
             },
             {
-              "frame": 3.5,
+              "frame": 4.5,
               "value": 0
             }
           ]
@@ -93,21 +93,21 @@
         "props": {
           "x": [
             {
-              "frame": 3,
+              "frame": 4,
               "value": -50
             },
             {
-              "frame": 3.5,
+              "frame": 4.5,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 3,
+              "frame": 4,
               "value": 0
             },
             {
-              "frame": 3.5,
+              "frame": 4.5,
               "value": 255
             }
           ]
@@ -137,79 +137,22 @@
           ]
         }
       },
-      "lady": {
-        "props": {
-          "y": [
-            {
-              "frame": 0,
-              "value": 2820
-            },
-            {
-              "frame": 4.5,
-              "value": 1900
-            },
-            {
-              "frame": 5.5,
-              "value": 0
-            }
-          ]
-        }
-      },
       "housewife": {
         "props": {
           "y": [
             {
-              "frame": 4.5,
+              "frame": 6,
               "value": 0
             },
             {
-              "frame": 6.5,
+              "frame": 7.516666666666667,
               "value": -1900
             }
           ]
         }
       },
-      "lady/title1/animTitle1": {
-        "props": {
-          "x": [
-            {
-              "frame": 5.516666666666667,
-              "value": -50
-            },
-            {
-              "frame": 6,
-              "value": 0
-            },
-            {
-              "frame": 7,
-              "value": 0
-            },
-            {
-              "frame": 7.5,
-              "value": 50
-            }
-          ],
-          "opacity": [
-            {
-              "frame": 5.516666666666667,
-              "value": 0
-            },
-            {
-              "frame": 6,
-              "value": 255
-            },
-            {
-              "frame": 7,
-              "value": 255
-            },
-            {
-              "frame": 7.5,
-              "value": 0
-            }
-          ]
-        }
-      },
-      "lady/title2/animTitle2": {
+      "lady/container/title1/animTitle1": {
+        "comps": {},
         "props": {
           "x": [
             {
@@ -218,14 +161,14 @@
             },
             {
               "frame": 7.5,
-              "value": 0
-            },
-            {
-              "frame": 8.5,
               "value": 0
             },
             {
               "frame": 9,
+              "value": 0
+            },
+            {
+              "frame": 9.5,
               "value": 50
             }
           ],
@@ -239,58 +182,120 @@
               "value": 255
             },
             {
-              "frame": 8.5,
+              "frame": 9,
               "value": 255
             },
             {
-              "frame": 9,
+              "frame": 9.5,
               "value": 0
             }
           ]
         }
       },
-      "lady/title3/animTitle3": {
+      "lady/container/title2/animTitle2": {
+        "comps": {},
         "props": {
           "x": [
             {
-              "frame": 8.5,
+              "frame": 9,
               "value": -50
             },
             {
+              "frame": 9.5,
+              "value": 0
+            },
+            {
+              "frame": 11,
+              "value": 0
+            },
+            {
+              "frame": 11.5,
+              "value": 50
+            }
+          ],
+          "opacity": [
+            {
               "frame": 9,
+              "value": 0
+            },
+            {
+              "frame": 9.5,
+              "value": 255
+            },
+            {
+              "frame": 11,
+              "value": 255
+            },
+            {
+              "frame": 11.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "lady/container/title3/animTitle3": {
+        "comps": {},
+        "props": {
+          "x": [
+            {
+              "frame": 11,
+              "value": -50
+            },
+            {
+              "frame": 11.5,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 8.5,
+              "frame": 11,
               "value": 0
             },
             {
-              "frame": 9,
+              "frame": 11.5,
               "value": 255
             }
           ]
         }
       },
-      "lady/swimsuit": {
+      "lady/container/swimsuit": {
         "comps": {
           "cc.Sprite": {
             "spriteFrame": [
               {
-                "frame": 5.5,
+                "frame": 7,
                 "value": {
                   "__uuid__": "8a08c7f3-54ae-49d6-b1f5-928de0f4d0d1"
                 }
               },
               {
-                "frame": 8.5,
+                "frame": 11,
                 "value": {
                   "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
                 }
               }
             ]
           }
+        },
+        "props": {}
+      },
+      "lady/container": {
+        "comps": {},
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 2800
+            },
+            {
+              "frame": 6,
+              "value": 1900
+            },
+            {
+              "frame": 7,
+              "value": 0
+            }
+          ]
         }
       }
     }

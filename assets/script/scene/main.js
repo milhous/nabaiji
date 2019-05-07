@@ -125,6 +125,10 @@ cc.Class({
                 this.adaAnim.play();
 
                 break;
+            case 6:
+                this.goToUrl();
+
+                break;
             default:
                 // statements_def
                 break;
