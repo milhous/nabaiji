@@ -35,7 +35,7 @@ body {
 
   cursor: default;
   color: #888;
-  background-color: #000;
+  background-color: #fff;
 
   text-align: center;
   font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -61,10 +61,11 @@ body {
   -webkit-box-pack: center;
 }
 
-#loading{position: absolute; left: 50%; top: 50%; color: #fff; font-size: 18px;}
+#loading{position: absolute; left: 50%; top: 50%; width: 300px; height: 55px; background: url(http://cdn.nabaiji.yuncoupons.com/loading.png) no-repeat center center; background-size: cover; text-indent: -9999px;}
 #loading{
   transform: translate(-50%, -50%);
 }
+.loading-dot{position: absolute; right: 45px; top: 15px; width: 44px; height: 8px; background: url(http://cdn.nabaiji.yuncoupons.com/loading-dot.png) no-repeat center center; background-size: cover; text-indent: -9999px;}
 
 canvas {
   background-color: rgba(0, 0, 0, 0);
@@ -92,7 +93,9 @@ p.footer {
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: #fff;
   background-size: 40%;
+  z-index: 100;
 }
 
 .progress-bar {

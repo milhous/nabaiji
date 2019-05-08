@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 11.5,
+  "_duration": 13.016666666666667,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -270,6 +270,12 @@
               },
               {
                 "frame": 11,
+                "value": {
+                  "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
+                }
+              },
+              {
+                "frame": 13,
                 "value": {
                   "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
                 }
