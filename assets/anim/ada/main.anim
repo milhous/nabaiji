@@ -326,6 +326,20 @@
         "props": {
           "opacity": [
             {
+              "frame": 3.5,
+              "value": 255
+            },
+            {
+              "frame": 4,
+              "value": 0
+            }
+          ]
+        }
+      },
+      " dropDown/container/item2": {
+        "props": {
+          "opacity": [
+            {
               "frame": 4,
               "value": 255
             },
@@ -336,7 +350,7 @@
           ]
         }
       },
-      " dropDown/container/item2": {
+      " dropDown/container/item3": {
         "props": {
           "opacity": [
             {
@@ -350,29 +364,15 @@
           ]
         }
       },
-      " dropDown/container/item3": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 5,
-              "value": 255
-            },
-            {
-              "frame": 5.5,
-              "value": 0
-            }
-          ]
-        }
-      },
       " dropDown/container/item4": {
         "props": {
           "opacity": [
             {
-              "frame": 5,
+              "frame": 4.5,
               "value": 255
             },
             {
-              "frame": 5.5,
+              "frame": 5.016666666666667,
               "value": 0
             }
           ]
@@ -382,11 +382,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 5.5,
+              "frame": 5,
               "value": 255
             },
             {
-              "frame": 6,
+              "frame": 5.5,
               "value": 0
             }
           ]
@@ -396,11 +396,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 5.5,
+              "frame": 6,
               "value": 255
             },
             {
-              "frame": 6,
+              "frame": 6.516666666666667,
               "value": 0
             }
           ]
@@ -410,11 +410,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 5.5,
+              "frame": 6,
               "value": 255
             },
             {
-              "frame": 6,
+              "frame": 6.5,
               "value": 0
             }
           ]
@@ -424,11 +424,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 6,
+              "frame": 6.5,
               "value": 255
             },
             {
-              "frame": 6.5,
+              "frame": 7,
               "value": 0
             }
           ]
