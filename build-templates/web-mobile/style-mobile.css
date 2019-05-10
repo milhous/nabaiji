@@ -65,7 +65,42 @@ body {
 #loading{
   transform: translate(-50%, -50%);
 }
-.loading-dot{position: absolute; right: 45px; top: 15px; width: 44px; height: 8px; background: url(http://cdn.nabaiji.yuncoupons.com/loading-dot.png) no-repeat center center; background-size: cover; text-indent: -9999px;}
+
+@-webkit-keyframes loading {
+  0% {
+    background-position: 0 0
+  }
+  33%{
+    background-position: 0 -10px;
+  }
+  66%{
+    background-position: 0 -20px;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-position: 0 0
+  }
+  33%{
+    background-position: 0 -10px;
+  }
+  66%{
+    background-position: 0 -20px;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+.animation-loading{display: block; position: absolute; right: 60px; top: 15px; width: 43px; height: 10px; background: url(http://cdn.nabaiji.yuncoupons.com/loading-dot.png) no-repeat center center; background-size: 43px 30px;}
+.animation-loading{
+  -webkit-animation: loading 2s steps(1) both infinite;
+  animation: loading 2s steps(1) both infinite;
+}
 
 canvas {
   background-color: rgba(0, 0, 0, 0);
