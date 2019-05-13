@@ -3,7 +3,7 @@
   "_name": "story3",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 7,
+  "_duration": 8.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -22,7 +22,7 @@
               }
             },
             {
-              "frame": 6.5,
+              "frame": 8,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1.18,
@@ -45,11 +45,11 @@
               "value": 255
             },
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 0
             }
           ],
@@ -71,7 +71,7 @@
               }
             },
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -79,7 +79,7 @@
               }
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 2,
@@ -94,25 +94,25 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 255
             },
             {
-              "frame": 4.5,
+              "frame": 5.5,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 6,
               "value": 0
             }
           ],
           "scale": [
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -120,7 +120,7 @@
               }
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -128,7 +128,7 @@
               }
             },
             {
-              "frame": 4.5,
+              "frame": 5.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -136,7 +136,7 @@
               }
             },
             {
-              "frame": 5,
+              "frame": 6,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 2,
@@ -151,17 +151,17 @@
         "props": {
           "opacity": [
             {
-              "frame": 4.5,
+              "frame": 5.5,
               "value": 0
             },
             {
-              "frame": 5,
+              "frame": 6,
               "value": 255
             }
           ],
           "scale": [
             {
-              "frame": 4.5,
+              "frame": 5.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 0,
@@ -169,7 +169,7 @@
               }
             },
             {
-              "frame": 5,
+              "frame": 6,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -193,7 +193,7 @@
       ],
       "scale": [
         {
-          "frame": 6.5,
+          "frame": 8,
           "value": {
             "__type__": "cc.Vec2",
             "x": 1,
@@ -201,7 +201,7 @@
           }
         },
         {
-          "frame": 6.983333333333333,
+          "frame": 8.5,
           "value": {
             "__type__": "cc.Vec2",
             "x": 1.6,
@@ -211,11 +211,11 @@
       ],
       "opacity": [
         {
-          "frame": 6.5,
+          "frame": 8,
           "value": 255
         },
         {
-          "frame": 7,
+          "frame": 8.5,
           "value": 0
         }
       ]

@@ -3,7 +3,7 @@
   "_name": "story1",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 6,
+  "_duration": 7,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -14,12 +14,12 @@
         "props": {
           "rotation": [
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 0,
               "curve": "cubicInOut"
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": -90
             }
           ]
@@ -30,12 +30,12 @@
         "props": {
           "rotation": [
             {
-              "frame": 2,
+              "frame": 2.5,
               "value": 90,
               "curve": "cubicInOut"
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -46,23 +46,23 @@
         "props": {
           "x": [
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 50,
               "curve": "linear"
             },
             {
-              "frame": 3.5,
+              "frame": 4,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 0,
               "curve": "linear"
             },
             {
-              "frame": 3.5,
+              "frame": 4,
               "value": 255
             }
           ]
@@ -98,21 +98,21 @@
     "props": {
       "x": [
         {
-          "frame": 5,
+          "frame": 6,
           "value": 0
         },
         {
-          "frame": 5.5,
+          "frame": 6.5,
           "value": -750
         }
       ],
       "opacity": [
         {
-          "frame": 5.5,
+          "frame": 6.5,
           "value": 255
         },
         {
-          "frame": 6,
+          "frame": 7,
           "value": 0
         }
       ]
@@ -120,7 +120,7 @@
   },
   "events": [
     {
-      "frame": 5,
+      "frame": 6,
       "func": "changeStage",
       "params": [
         0

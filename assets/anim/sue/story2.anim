@@ -3,7 +3,7 @@
   "_name": "story2",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 6,
+  "_duration": 7,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -45,11 +45,11 @@
               "value": 255
             },
             {
-              "frame": 2,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -60,12 +60,12 @@
         "props": {
           "x": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0,
               "curve": "linear"
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": -750
             }
           ]
@@ -76,11 +76,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 0
             }
           ]
@@ -91,11 +91,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 255
             }
           ]
@@ -106,11 +106,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.0166666666666666,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 2.5166666666666666,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -140,11 +140,11 @@
               "value": 255
             },
             {
-              "frame": 2,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -155,11 +155,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 0
             }
           ]
@@ -170,11 +170,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 255
             }
           ]
@@ -185,11 +185,11 @@
         "props": {
           "x": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 750
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 0
             }
           ]
@@ -200,11 +200,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3.5,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 4,
               "value": 255
             }
           ]
@@ -222,21 +222,21 @@
           "value": 0
         },
         {
-          "frame": 5,
+          "frame": 6,
           "value": 0
         },
         {
-          "frame": 5.5,
+          "frame": 6.5,
           "value": -750
         }
       ],
       "opacity": [
         {
-          "frame": 5.5,
+          "frame": 6.5,
           "value": 255
         },
         {
-          "frame": 6,
+          "frame": 7,
           "value": 0
         }
       ]
@@ -244,7 +244,7 @@
   },
   "events": [
     {
-      "frame": 5,
+      "frame": 6,
       "func": "changeStage",
       "params": [
         0
