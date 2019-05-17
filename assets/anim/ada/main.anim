@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 16.033333333333335,
+  "_duration": 20,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -273,12 +273,6 @@
                 "value": {
                   "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
                 }
-              },
-              {
-                "frame": 16.016666666666666,
-                "value": {
-                  "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
-                }
               }
             ]
           }
@@ -434,6 +428,22 @@
           ]
         }
       }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 16,
+          "value": 255
+        },
+        {
+          "frame": 17,
+          "value": 0
+        },
+        {
+          "frame": 20,
+          "value": 0
+        }
+      ]
     }
   },
   "events": []
