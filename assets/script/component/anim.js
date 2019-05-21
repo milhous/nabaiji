@@ -54,5 +54,12 @@ cc.Class({
                 index: this.index
             }
         });
+    },
+
+    // 更新音量
+    mute() {
+        utils.mediator.emit({
+            cmd: utils.ACTION.MUTE
+        });
     }
 });

@@ -5,6 +5,7 @@
         "MAIN": "main"
     },
     "ACTION": {
-        "CHANGE_STAGE": "changeStage"
+        "CHANGE_STAGE": "changeStage",
+        "MUTE": "mute"
     }
 }

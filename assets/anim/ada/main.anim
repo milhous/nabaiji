@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 20,
+  "_duration": 22.5,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -164,11 +164,11 @@
               "value": 0
             },
             {
-              "frame": 11,
+              "frame": 11.5,
               "value": 0
             },
             {
-              "frame": 11.5,
+              "frame": 12,
               "value": 50
             }
           ],
@@ -182,11 +182,11 @@
               "value": 255
             },
             {
-              "frame": 11,
+              "frame": 11.5,
               "value": 255
             },
             {
-              "frame": 11.5,
+              "frame": 12,
               "value": 0
             }
           ]
@@ -197,37 +197,37 @@
         "props": {
           "x": [
             {
-              "frame": 11,
+              "frame": 11.5,
               "value": -50
             },
             {
-              "frame": 11.5,
+              "frame": 12,
               "value": 0
             },
             {
-              "frame": 13.5,
+              "frame": 14.5,
               "value": 0
             },
             {
-              "frame": 14,
+              "frame": 15,
               "value": 50
             }
           ],
           "opacity": [
             {
-              "frame": 11,
+              "frame": 11.5,
               "value": 0
             },
             {
-              "frame": 11.5,
+              "frame": 12,
               "value": 255
             },
             {
-              "frame": 13.5,
+              "frame": 14.5,
               "value": 255
             },
             {
-              "frame": 14,
+              "frame": 15,
               "value": 0
             }
           ]
@@ -238,21 +238,21 @@
         "props": {
           "x": [
             {
-              "frame": 13.5,
+              "frame": 14.5,
               "value": -50
             },
             {
-              "frame": 14,
+              "frame": 15,
               "value": 0
             }
           ],
           "opacity": [
             {
-              "frame": 13.5,
+              "frame": 14.5,
               "value": 0
             },
             {
-              "frame": 14,
+              "frame": 15,
               "value": 255
             }
           ]
@@ -269,7 +269,7 @@
                 }
               },
               {
-                "frame": 13.5,
+                "frame": 14.5,
                 "value": {
                   "__uuid__": "d125f0cc-1684-4e74-8681-0fc6e9d4e833"
                 }
@@ -432,19 +432,27 @@
     "props": {
       "opacity": [
         {
-          "frame": 16,
+          "frame": 17.5,
           "value": 255
         },
         {
-          "frame": 17,
+          "frame": 18.5,
           "value": 0
         },
         {
-          "frame": 20,
+          "frame": 22.5,
           "value": 0
         }
       ]
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 18.5,
+      "func": "mute",
+      "params": [
+        ""
+      ]
+    }
+  ]
 }

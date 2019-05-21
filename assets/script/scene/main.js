@@ -105,6 +105,15 @@ cc.Class({
                 this.changeStage(props.index);
             }
         });
+
+        // 切换舞台
+        utils.mediator.add({
+            scene: SCENE.MAIN,
+            action: ACTION.MUTE,
+            callback: (props) => {
+                this.mute();
+            }
+        });
     },
 
     // 切换舞台
@@ -149,5 +158,25 @@ cc.Class({
     // 跳过
     goToUrl() {
         location.href = 'http://nabaiji.yuncoupons.com/photo.php';
+    },
+
+    // 静音
+    mute() {
+        const audio = document.getElementById('audio');
+
+        if (!!audio) {
+            let volume = 100;
+            const diff = 10;
+
+            let timer = setInterval(() => {
+                if (volume > 0) {
+                    volume -= diff;
+
+                    audio.volume = volume / 100;
+                } else {
+                    clearInterval(timer);
+                }
+            }, 200);
+        }
     }
 });

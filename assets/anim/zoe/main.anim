@@ -3,7 +3,7 @@
   "_name": "main",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 20,
+  "_duration": 21,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -13,7 +13,7 @@
         "props": {
           "scale": [
             {
-              "frame": 7.5,
+              "frame": 8.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 1,
@@ -21,7 +21,7 @@
               }
             },
             {
-              "frame": 9.5,
+              "frame": 10.5,
               "value": {
                 "__type__": "cc.Vec2",
                 "x": 4,
@@ -31,14 +31,14 @@
           ],
           "position": [
             {
-              "frame": 7.5,
+              "frame": 8.5,
               "value": [
                 0,
                 0
               ]
             },
             {
-              "frame": 9.5,
+              "frame": 10.5,
               "value": [
                 -1000,
                 1000
@@ -51,11 +51,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 9,
+              "frame": 10,
               "value": 0
             },
             {
-              "frame": 9.5,
+              "frame": 10.5,
               "value": 255
             }
           ]
@@ -66,19 +66,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 12,
+              "frame": 13,
               "value": 0
             },
             {
-              "frame": 12.5,
+              "frame": 13.5,
               "value": 255
             },
             {
-              "frame": 14.5,
+              "frame": 15.5,
               "value": 255
             },
             {
-              "frame": 15,
+              "frame": 16,
               "value": 0
             }
           ]
@@ -89,19 +89,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 14.5,
+              "frame": 15.5,
               "value": 0
             },
             {
-              "frame": 15,
+              "frame": 16,
               "value": 255
             },
             {
-              "frame": 17,
+              "frame": 18,
               "value": 255
             },
             {
-              "frame": 17.5,
+              "frame": 18.5,
               "value": 0
             }
           ]
@@ -112,11 +112,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 17,
+              "frame": 18,
               "value": 0
             },
             {
-              "frame": 17.5,
+              "frame": 18.5,
               "value": 255
             }
           ]
@@ -127,25 +127,25 @@
           "cc.Sprite": {
             "spriteFrame": [
               {
-                "frame": 9.5,
+                "frame": 10.5,
                 "value": {
                   "__uuid__": "c11771c1-e8eb-4cff-bb23-b3572c66b4a1"
                 }
               },
               {
-                "frame": 12,
+                "frame": 13,
                 "value": {
                   "__uuid__": "737ac03b-6509-485b-9570-27e518c3e604"
                 }
               },
               {
-                "frame": 14.5,
+                "frame": 15.5,
                 "value": {
                   "__uuid__": "2134054e-d36a-4d06-aa74-a54ccd66b2db"
                 }
               },
               {
-                "frame": 17,
+                "frame": 18,
                 "value": {
                   "__uuid__": "de83396e-3591-474d-b4a3-0f991a097697"
                 }
@@ -160,19 +160,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 9.5,
+              "frame": 10.5,
               "value": 0
             },
             {
-              "frame": 10,
+              "frame": 11,
               "value": 255
             },
             {
-              "frame": 12,
+              "frame": 13,
               "value": 255
             },
             {
-              "frame": 12.5,
+              "frame": 13.5,
               "value": 0
             }
           ]
@@ -191,11 +191,11 @@
               "value": 255
             },
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": 255
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 0
             }
           ]
@@ -206,19 +206,19 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.5,
+              "frame": 3,
               "value": 0
             },
             {
-              "frame": 3,
+              "frame": 3.5,
               "value": 255
             },
             {
-              "frame": 5,
+              "frame": 6,
               "value": 255
             },
             {
-              "frame": 5.5,
+              "frame": 6.5,
               "value": 0
             }
           ]
@@ -229,11 +229,11 @@
         "props": {
           "opacity": [
             {
-              "frame": 5,
+              "frame": 6,
               "value": 0
             },
             {
-              "frame": 5.5,
+              "frame": 6.5,
               "value": 255
             }
           ]
@@ -250,13 +250,13 @@
                 }
               },
               {
-                "frame": 2.5,
+                "frame": 3,
                 "value": {
                   "__uuid__": "6139d021-0824-4824-b9e8-468fc74957c1"
                 }
               },
               {
-                "frame": 5,
+                "frame": 6,
                 "value": {
                   "__uuid__": "31b288a7-cc46-4b49-8820-dd3f859012fe"
                 }
@@ -295,11 +295,11 @@
     "props": {
       "opacity": [
         {
-          "frame": 19.5,
+          "frame": 20.5,
           "value": 255
         },
         {
-          "frame": 20,
+          "frame": 21,
           "value": 0
         }
       ]
@@ -307,7 +307,7 @@
   },
   "events": [
     {
-      "frame": 19.5,
+      "frame": 20.5,
       "func": "changeStage",
       "params": [
         0
