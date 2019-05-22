@@ -136,38 +136,17 @@
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.57b4f.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
         cocos2d.removeEventListener('load', engineLoaded, false);
         window.boot();
 
-        audioAutoPlay();
-
         getShareInfo();
     };
     cocos2d.addEventListener('load', engineLoaded, false);
     document.body.appendChild(cocos2d);
-
-    // 自动播放
-    var audioAutoPlay = function() {
-        var audio = document.getElementById('audio');
-
-        if (window.WeixinJSBridge) {
-            WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
-                audio.play();
-            }, false);
-        } else {
-            document.addEventListener('WeixinJSBridgeReady', function() {
-                WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
-                    audio.play();
-                });
-            }, false);
-        }
-
-        audio.play();
-    };
 
     var getShareInfo = function(){
         var link = location.href.split('#')[0];
@@ -185,7 +164,12 @@
                         timestamp: data.timestamp, // 必填，生成签名的时间戳
                         nonceStr: data.nonceStr, // 必填，生成签名的随机串
                         signature: data.signature,// 必填，签名
-                        jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData'] // 必填，需要使用的JS接口列表
+                        jsApiList: [
+                          'updateAppMessageShareData',
+                          'updateTimelineShareData',
+                          'onMenuShareTimeline',
+                          'onMenuShareAppMessage'
+                        ] // 必填，需要使用的JS接口列表
                     });
 
                     initShare();
@@ -201,7 +185,7 @@
 
     // 定义分享
     var initShare = function() {
-        var title = '你的美，由你决定';
+        var title = '晒出最美泳姿 赢迪卡侬大奖';
         var link = 'http://nabaiji.yuncoupons.com';
         var desc = '暗夜精灵泳衣，SHOW出你的美';
         var imgUrl = 'http://nabaiji.yuncoupons.com/share.png';
@@ -228,7 +212,32 @@
                   // 设置成功
                   console.log('自定义“分享到朋友圈”及“分享到QQ空间”按钮的分享内容设置成功');
                 }
-            })
+            });
+
+            // 获取“分享到朋友圈”按钮点击状态及自定义分享内容接口（即将废弃），兼容老版本微信
+            wx.onMenuShareTimeline({
+                title: title, // 分享标题
+                link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: imgUrl, // 分享图标
+                success: function () {
+                  // 设置成功
+                  console.log('自定义“分享到朋友圈”按钮的分享内容设置成功');
+                }
+            });
+
+            // 获取“分享给朋友”按钮点击状态及自定义分享内容接口（即将废弃），兼容老版本微信
+            wx.onMenuShareAppMessage({
+                title: title, // 分享标题
+                desc: desc, // 分享描述
+                link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: imgUrl, // 分享图标
+                type: 'link', // 分享类型,music、video或link，不填默认为link
+                dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+                success: function () {
+                  // 设置成功
+                  console.log('自定义“分享给朋友”按钮的分享内容设置成功');
+                }
+            });
         });
     };
 })();
