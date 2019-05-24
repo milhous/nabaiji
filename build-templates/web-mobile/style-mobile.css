@@ -66,6 +66,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#loaded{position: absolute; left: 50%; top: 50%; color: #6098c4; font-size: 12px; line-height: 22px; white-space: nowrap;}
+#loaded{
+  transform: translate(-50%, -30px);
+}
+
 @-webkit-keyframes loading {
   0% {
     background-position: 0 0
