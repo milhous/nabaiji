@@ -188,9 +188,9 @@
 
     // 定义分享
     var initShare = function() {
-        var title = '1秒拍最美泳装照，Show出魅力姿态！';
+        var title = '暗夜精灵泳衣, 带你C位出道';
         var link = 'http://nabaiji.yuncoupons.com';
-        var desc = '暗夜精灵泳衣，带你C位出道，赢迪卡侬大奖';
+        var desc = '1秒拍最美泳装照, Show出魅力姿态, 赢迪卡侬大奖';
         var imgUrl = 'http://nabaiji.yuncoupons.com/share.png';
 
         wx.ready(function(){
