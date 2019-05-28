@@ -22,6 +22,11 @@ cc.Class({
             type: cc.Node,
             tooltip: '按钮 - 跳过'
         },
+        btnFast: {
+            default: null,
+            type: cc.Node,
+            tooltip: '按钮 - 加速'
+        },
         forewordAnim: {
             default: null,
             type: cc.Animation,
@@ -59,7 +64,8 @@ cc.Class({
     },
 
     start () {
-
+        // 自动播放音效
+        this.audioAutoPlay();
     },
 
     update(dt) {
@@ -91,6 +97,12 @@ cc.Class({
             
             this.goToUrl();
         }, this);
+
+        this.btnFast.on(cc.Node.EventType.TOUCH_START, (evt) => {
+            evt.stopPropagation();
+            
+            this.fast();
+        }, this);
     },
 
     // 组件数据连接
@@ -114,6 +126,29 @@ cc.Class({
                 this.mute();
             }
         });
+    },
+
+    // 自动播放
+    audioAutoPlay() {
+        var audio = document.getElementById('audio');
+
+        if (audio === null) {
+            return;
+        }
+
+        if (window.WeixinJSBridge) {
+            WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+                audio.play();
+            }, false);
+        } else {
+            document.addEventListener('WeixinJSBridgeReady', function() {
+                WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+                    audio.play();
+                });
+            }, false);
+        }
+
+        audio.play();
     },
 
     // 切换舞台
@@ -178,5 +213,12 @@ cc.Class({
                 }
             }, 200);
         }
+    },
+
+    // 加速
+    fast() {
+        this.btnFast.active = false;
+
+        cc.director.getScheduler().setTimeScale(1.5)
     }
 });

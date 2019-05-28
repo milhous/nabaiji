@@ -149,7 +149,7 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.454ce.js';
+        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
                 return 'src/' + x;
@@ -211,12 +211,12 @@ if (false) {
 else if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-        require('src/settings.d7709.js');
+        require('src/settings.js');
         require('src/cocos2d-runtime.js');
         require('jsb-adapter/engine/index.js');
     }
     else {
-        require('src/settings.d7709.js');
+        require('src/settings.js');
         require('src/cocos2d-jsb.js');
         require('jsb-adapter/jsb-engine.js');
     }
